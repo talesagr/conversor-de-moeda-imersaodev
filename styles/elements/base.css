@@ -1,4 +1,12 @@
+html,
+ body {
+     font-size: 10px;
+ }
+ 
 body {
     background-color: var(--color-background);
     color: var(--color-font);
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 10px;
 }
