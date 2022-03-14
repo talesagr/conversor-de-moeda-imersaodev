@@ -1,9 +1,11 @@
 .coin {
+    box-sizing: border-box;
     background-color: var(--color-background);
     color: var(--color-font);
-    font-family: inherit;
+    font: inherit;
     padding: var(--gap-small);
     border: 0.4rem solid var(--color-font);
-    width: 20rem;
+    width: 100%;
     cursor: pointer;
+    text-align: center;
 }

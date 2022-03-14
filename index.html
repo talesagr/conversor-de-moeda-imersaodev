@@ -14,23 +14,29 @@
     <link rel="stylesheet" href="./styles/index.css">
   </head>
   <body>
-    
-      <h1 class="title">Conversor de moedas</h1>
-   
-<input class="coin" type="number" />
-<select class="list-coins">
-<option value="real">Real</option>
-<option value="sek">SEK</option>
-</select>
-
-
-<input class="coin" type="number" />
-<select class="list-coins">
-  <option value="real">Real</option>
-  <option value="sek">SEK</option>
-  </select>
   
+  <main class="stage">
+        <h1 class="title">Conversor de moedas</h1>
+    
+  <section class="converter">
+              <form class="wrapper-coin">
+              <input class="coin" type="number" />
+              <select class="list-coins">
+              <option value="real">Real</option>
+              <option value="sek">SEK</option>
+              </select>
+              </form>
+                  <span class="comparator">=</span>
 
+              <form class="wrapper-coin">
+              <input class="coin" type="number" />
+              <select class="list-coins">
+                <option value="real">Real</option>
+                <option value="sek">SEK</option>
+                </select>
+                </form>
+  </section>
+</main>
     <script type="module" src="/main.js"></script>
   </body>
 </html>

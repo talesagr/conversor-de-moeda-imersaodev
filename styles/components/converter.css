@@ -1,0 +1,10 @@
+.converter {
+    display: flex;
+    align-items: center;
+    gap: var(--gap-medium);
+}
+
+.converter > .comparator {
+    font-size: 5rem;
+
+}
